@@ -5,7 +5,11 @@
 	</head>
 	<body>
 		<div class="gamearea">
-			<div class="questionarea">Start game</div>
+			<div id="question" class="questionarea">
+				Start game
+				<div id="showcorrect">Correct</div>
+				<div id="showwrong">Wrong</div>
+			</div>
 			<div class="scorearea">Score:0</div>
 			<div class="timearea">Time:0</div>
 			<div class="boxarea">
@@ -14,12 +18,13 @@
 				<div class="box">hi</div>
 				<div class="box">hi</div>
 			</div>
-			<button class="startbutton">
+			<button id="start" class="startbutton">
 				Start
 			</button>
 		</div>
 		<div class="gameoverarea">
-
 		</div>
+
+		<script src="number.js" type="text/javascript"></script>
 	</body>
 </html>
