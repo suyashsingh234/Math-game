@@ -1,0 +1,80 @@
+html,body
+{
+	width:100%;
+	height: 100%;
+	background-color: #1df2e7;
+}
+.gamearea
+{
+	font-size: 4vw;
+	position: relative;
+	display: block;
+	margin:auto;
+	height:50%;
+	width:75%;
+	border:2px solid black;
+}
+.questionarea
+{
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+	width:75%;
+	height:50%;
+	border:2px solid black;
+}
+.scorearea
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: inline-block;
+	width:20%;
+	height:20%;
+	border:2px solid black;
+}
+.timearea
+{
+	position: absolute;
+	right: 0px;
+	top: 25%;
+	display: inline-block;
+	width:20%;
+	height:20%;
+	border:2px solid black;
+}
+.boxarea
+{
+	position: absolute;
+	top:55%;
+	display: inline-block;
+	width:75%;
+	height:40%;
+	border:2px solid black;
+}
+.box{
+	margin-left:5px;
+	margin-top: 2px;
+	display: inline-block;
+	width:20%;
+	height:90%;
+	border:2px solid black;
+}
+.startbutton
+{
+	position: absolute;
+	bottom:5%;
+	right:2%;
+	height:25%;
+	width:20%;
+}
+.gameoverarea
+{
+		position: relative;
+		display: none;
+		margin:auto;
+		height:50%;
+		width:75%;
+		border:2px solid black;
+		background-color: #f4f142;
+}
