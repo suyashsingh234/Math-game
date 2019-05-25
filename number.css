@@ -19,32 +19,32 @@ html,body
 	font-size: 4vw;
 	text-align: center;
 	position: absolute;
+	top:25%;
 	display: inline-block;
 	width:75%;
-	height:50%;
+	height:25%;
 	border:2px solid black;
 }
 #showwrong,#showcorrect
 {
-	font-size: 2vw;
+	font-size: 4vw;
 	position: absolute;
-	bottom:2%;
-	left:40%;
-	display: inline-block;
+	top:2%;
+	left:25%;
+	display: none;
 	width:25%;
 	height:20%;
 	margin:auto;
 	border:2px solid black;
+	text-align: center;
 }
 #showcorrect
 {
-	display: none;
 	background-color: #77f442;
 }
 #showwrong
 {
 	background-color: #f20707;
-	display: none;
 }
 .scorearea
 {
@@ -69,7 +69,7 @@ html,body
 .boxarea
 {
 	position: absolute;
-	top:55%;
+	top:60%;
 	display: inline-block;
 	width:75%;
 	height:40%;
@@ -89,6 +89,7 @@ html,body
 }
 .startbutton
 {
+	font-size: 4vw;
 	position: absolute;
 	bottom:5%;
 	right:2%;
@@ -97,7 +98,11 @@ html,body
 }
 .gameoverarea
 {
-		position: relative;
+		font-size: 4vw;
+		text-align: center;
+		position: absolute;
+		top:0%;
+		left:0%;
 		display: none;
 		margin:auto;
 		height:50%;
