@@ -13,6 +13,7 @@ html,body
 	height:50%;
 	width:75%;
 	border:2px solid black;
+	background-color: #eda8ec;
 }
 .questionarea
 {
@@ -24,6 +25,7 @@ html,body
 	width:75%;
 	height:25%;
 	border:2px solid black;
+	background-color: #e5aaa7;
 }
 #showwrong,#showcorrect
 {
@@ -48,6 +50,7 @@ html,body
 }
 .scorearea
 {
+	background-color: #faff05;
 	position: absolute;
 	right: 0px;
 	top: 0px;
@@ -58,6 +61,7 @@ html,body
 }
 .timearea
 {
+	background-color: #faff05;
 	position: absolute;
 	right: 0px;
 	top: 25%;
@@ -68,6 +72,7 @@ html,body
 }
 .boxarea
 {
+	background-color: #e2a82b;
 	position: absolute;
 	top:60%;
 	display: inline-block;
@@ -95,6 +100,9 @@ html,body
 	right:2%;
 	height:25%;
 	width:20%;
+	background-color: #F0F8FF;
+	box-shadow: 5px 5px;
+	border-radius: 50%;
 }
 .gameoverarea
 {
